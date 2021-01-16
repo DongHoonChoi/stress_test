@@ -1,8 +1,9 @@
 var num=1;
 
-function start() {
-    $(".start").hide();
+function startgo() {
+    $(".startgo").hide();
     $(".question").show();
+    $(".container").hide();
     next();
 }
 
