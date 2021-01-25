@@ -5,15 +5,20 @@
     font-style: normal;
 }
 
-body {
-/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eafffc+0,f0e8ff+100 */
-background: #eafffc; /* Old browsers */
-background:  black;          /*-moz-linear-gradient(left,  #eafffc 0%, #f0e8ff 100%); FF3.6-15 */
-background:black;          /*-webkit-linear-gradient(left,  #eafffc 0%,#f0e8ff 100%); /* Chrome10-25,Safari5.1-6 */
-background:black;             /*linear-gradient(to right,  #eafffc 0%,#f0e8ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eafffc', endColorstr='#f0e8ff',GradientType=1 ); /* IE6-9 */
+.updown-slash {
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-
+.btn-start {
+    margin: 0 auto;
+    width: 50%;
+    font-size: 18px;
+    color: #1f1f1f;
+    background-color: #FDE7D6;
+    border:#1f1f1f;
+}
 .main-title {
     font-size: 22px;
     color: #7c7c7c;
