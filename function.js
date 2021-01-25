@@ -153,7 +153,8 @@ function next() {
         $('#type1').val(q[num]["type1"]);
         $('#type2').val(q[num]["type2"]);
         $('#type3').val(q[num]["type3"]);
-        $('#type4').val(q[num]["type4"]);            
+        $('#type4').val(q[num]["type4"]);
+        $('.question').css({'background-image':'url(/image/' + q[num]["image"]});    
         $('#A').html(q[num]["A"]);
         $('#B').html(q[num]["B"]);
         $('#C').html(q[num]["C"]);

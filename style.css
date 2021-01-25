@@ -4,16 +4,26 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body {
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eafffc+0,f0e8ff+100 */
 background: #eafffc; /* Old browsers */
-background: -moz-linear-gradient(left,  #eafffc 0%, #f0e8ff 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(left,  #eafffc 0%,#f0e8ff 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to right,  #eafffc 0%,#f0e8ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+background:  black;          /*-moz-linear-gradient(left,  #eafffc 0%, #f0e8ff 100%); FF3.6-15 */
+background:black;          /*-webkit-linear-gradient(left,  #eafffc 0%,#f0e8ff 100%); /* Chrome10-25,Safari5.1-6 */
+background:black;             /*linear-gradient(to right,  #eafffc 0%,#f0e8ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eafffc', endColorstr='#f0e8ff',GradientType=1 ); /* IE6-9 */
 }
 
+.main-title {
+    font-size: 22px;
+    color: #7c7c7c;
+}
 
+.sub-title {
+    font-size: 28px;
+    font-weight: 100;
+    color: #bb891de5;
+}
 
 article {
     display: flex;
@@ -22,6 +32,9 @@ article {
 
 .question{
     display:none;
+    background-color: #1f1f1f;
+    background-image:url('/image/1.jpg');
+    background-size: cover;
 }
 
 .result{
@@ -57,16 +70,46 @@ article {
         background-color: #ffffff;
         border:#1f1f1f;
         border-radius: 10px;
-        opacity:50%;
+        opacity:70%;
         padding:30px;
         width:70%;
         margin: 0 auto;
         text-align: center;
+        margin-bottom: 10px;
+        font-weight:bolder;
 }
 
-/* .progress-bar {
+.btn-title{
+    font-size: 25px;
+    color:#1f1f1f;
+    background-color: #ffffff;
+    border:#1f1f1f;
+    border-radius: 10px;
+    opacity:70%;
+    padding:30px;
+    width:70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight:bolder;
+}
+
+.progress-bar {
     background-color: #ff9300;
 }
 .progress {
     background-color: #525764;
-} */
+    margin-bottom: 20px;
+    width:90%;
+    margin : 0 auto;
+    
+}
+
+#image{
+    background-image: 100px;
+    opacity: 30%;
+}
+
+#character, #explain{
+    color: #eafffc;
+}

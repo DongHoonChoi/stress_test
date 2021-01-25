@@ -1,11 +1,8 @@
 /* style */
 body {
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#eafffc+0,f0e8ff+100 */
-  background: #eafffc; /* Old browsers */
-  background: -moz-linear-gradient(left,  #eafffc 0%, #f0e8ff 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(left,  #eafffc 0%,#f0e8ff 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to right,  #eafffc 0%,#f0e8ff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eafffc', endColorstr='#f0e8ff',GradientType=1 ); /* IE6-9 */
+  background-color: #1f1f1f; /* Old browsers */
+  
 }
 #wrap {
   position: relative;
@@ -26,7 +23,7 @@ body {
 @media all and (min-width: 768px) {
   /* qna에서 margin-top을 없애야 함 */
   #wrap {
-    margin-top: 115px;
+    margin-top: 0px;
   }
   .container {
     padding: 60px 5% 37.5px 5%;

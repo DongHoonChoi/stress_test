@@ -20,8 +20,8 @@
   .title, h1 {
     line-height: 48px;
     line-height: 3rem;
-    font-size: 39px;
-    font-size: 2.5rem;
+    font-size: 20px;
+    font-size: 1rem;
     font-weight: bolder;
     letter-spacing: -3.2px;
     letter-spacing: -0.2rem;
@@ -29,8 +29,8 @@
   .sec-tit {
     line-height: 35.2px;
     line-height: 2.2rem;
-    font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 10px;
+    font-size: 1rem;
     font-weight: lighter;
     letter-spacing: 6.4px;
     letter-spacing: 0.4rem;
@@ -71,8 +71,8 @@
   }
   #p-tit {
     display: block;
-    font-size: 24px;
-    font-size: 1.5rem;
+    font-size: 10px;
+    
     font-weight: bolder;
   }
   #name-input {
@@ -135,7 +135,7 @@
     .title {
       line-height: 64px;
       line-height: 4rem;
-      font-size: 51.2px;
+      font-size: 20px;
       font-size: 3.2rem;
     }
     .sec-tit {
@@ -168,7 +168,7 @@
     .title {
       line-height: 80px;
       line-height: 5rem;
-      font-size: 59.2px;
+      font-size: 20px;
       font-size: 3.7rem;
     }
     .sec-tit {
@@ -226,7 +226,7 @@
     .title {
       line-height: 88px;
       line-height: 5.5rem;
-      font-size: 67.2px;
+      font-size: 20.2px;
       font-size: 4.2rem;
     }
     .sec-tit {
