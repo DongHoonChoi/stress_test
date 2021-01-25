@@ -159,6 +159,7 @@ function next() {
         $('#B').html(q[num]["B"]);
         $('#C').html(q[num]["C"]);
         $('#D').html(q[num]["D"]);
+        $('body').css({'background-color':'#1f1f1f'});
         num ++;
     }
 }
