@@ -1,8 +1,8 @@
-#welcome {
+/* #welcome {
     min-height: 90vh;
     box-shadow: #ddd 0px 0px 10px 5px;
     background: rgb(252, 252, 252);
-  }
+  } */
   #title-box {
     text-align: center;
     animation: fade-in 0.5s ease-out 0.3s both,
@@ -35,19 +35,7 @@
     letter-spacing: 6.4px;
     letter-spacing: 0.4rem;
   }
-  .time-logo {
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 20px;
-    width: 30px;
-    height: 30px;
-    background-image: url('../img/clock.png');
-    background-size: cover;
-    /*
-    자료 출처
-    https://commons.wikimedia.org/wiki/File:Alarms_%26_Clock_icon.png
-    */
-  }
+  
   .time-logo + div {
     font-weight: lighter;
     letter-spacing: -0.5px;

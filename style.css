@@ -4,6 +4,60 @@
     font-weight: normal;
     font-style: normal;
 }
+/* @font-face{
+    font-family: 'RIDIBatang';
+    src: url('Cafe24Danjunghae.ttf');
+} */
+@font-face{
+    font-family: 'cafe24';
+    src: url('Cafe24Danjunghae.ttf');
+}
+
+ /*처음 */ 
+.back-all{
+    background-color: #1f1f1f; /* Old browsers */
+  background-image: url('/image/background.jpg');
+  background-size: 100%;
+  top:0px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    width:100vw;
+    height:100vh;
+}
+#wrap {
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100%;
+  }
+
+.musics{
+    position:fixed;
+    top:5%;
+    left:80%;
+    width:46px;
+    height:24px;
+}
+#harry_pont{
+    width: 187px;
+    height: 85px;
+}
+
+.main-title {
+    font-size: 22px;
+    color: #7c7c7c;
+}
+
+.sub-title {
+    font-family: 'cafe24';
+    font-size: 22px;
+    border-right: 1px;
+    color: #f1f1f1;
+    
+}
 
 .updown-slash {
     width: 200px;
@@ -11,24 +65,37 @@
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .btn-start {
+    border-radius:10px;
     margin: 0 auto;
     width: 50%;
-    font-size: 18px;
+    font-size: 20px;
     color: #1f1f1f;
-    background-color: #FDE7D6;
+    background-color: #f1f1f1;
     border:#1f1f1f;
 }
-.main-title {
-    font-size: 22px;
-    color: #7c7c7c;
+
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: #ffffff;
+	font-size: 12px;
+	margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: #ffffff;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 16px;
 }
 
-.sub-title {
-    font-size: 28px;
-    font-weight: 100;
-    color: #bb891de5;
-}
+/* 문제*/
 
 article {
     display: flex;
@@ -40,6 +107,113 @@ article {
     background-color: #1f1f1f;
     background-image:url('/image/1.jpg');
     background-size: cover;
+    animation: fade-in 1s;
+}
+
+#t-number{
+    font-size: 30px;
+
+}
+
+#t-words{
+    font-size: 22px;
+}
+
+.btn-attr{
+    font-size: 15px;
+    color:#1f1f1f;
+    background-color: #ffffff;
+    border:#1f1f1f;
+    border-radius: 10px;
+    opacity:70%;
+    padding:30px;
+    width:92%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight:bolder;
+    animation: fade-in 3s;
+}
+
+.btn-title{
+font-size: 16px;
+color:#1f1f1f;
+background-color: #ffffff;
+border:#1f1f1f;
+
+opacity:70%;
+padding:30px;
+width:92%;
+margin: 0 auto;
+text-align: center;
+margin-bottom: 25px;
+font-weight:bolder;
+animation: fade-in 3s;
+}
+
+/* 결과 */
+
+#result_compare{
+    font-family:'cafe24';
+    color : #ffffff;
+    font-size: 22px;
+}
+
+#character1{
+    font-family:'cafe24';
+    color : #ffffff;
+    font-size: 16px;
+}
+
+#character2{
+    font-family:'cafe24';
+    color : #ffffff;
+    font-size: 22px;
+}
+
+#character3{
+    font-family:'cafe24';
+    color : #ffffff;
+    font-size: 14px;
+}
+
+#explain{
+    font-family:'RIDIBatang';
+    color : #ffffff;
+    font-size: 13px;
+}
+
+#stress_explain1{
+    text-align: left;
+    text-decoration: underline;
+    font-family:'RIDIBatang';
+    color : #ffffff;
+    font-size: 14px;
+}
+
+hr{
+width:300px;
+
+}
+#stress_explain2{
+    font-family:'RIDIBatang';
+    color : #ffffff;
+    font-size: 13px;
+}
+
+#stress_own, #stress_own3, #stress_own5, #stress_own7{text-align: left;
+    text-decoration: underline;
+    font-family:'RIDIBatang';
+    color : #ffffff;
+    font-size: 14px;
+
+}
+
+#stress_own2, #stress_own4, #stress_own6, #stress_own8{
+    font-family:'RIDIBatang';
+    color : #ffffff;
+    font-size: 13px;
+
 }
 
 .result{
@@ -69,46 +243,9 @@ article {
     margin:0 auto;
 }
 
-.btn-attr{
-        font-size: 16px;
-        color:#1f1f1f;
-        background-color: #ffffff;
-        border:#1f1f1f;
-        border-radius: 10px;
-        opacity:70%;
-        padding:30px;
-        width:70%;
-        margin: 0 auto;
-        text-align: center;
-        margin-bottom: 10px;
-        font-weight:bolder;
-}
 
-.btn-title{
-    font-size: 25px;
-    color:#1f1f1f;
-    background-color: #ffffff;
-    border:#1f1f1f;
-    border-radius: 10px;
-    opacity:70%;
-    padding:30px;
-    width:70%;
-    margin: 0 auto;
-    text-align: center;
-    margin-bottom: 25px;
-    font-weight:bolder;
-}
 
-.progress-bar {
-    background-color: #ff9300;
-}
-.progress {
-    background-color: #525764;
-    margin-bottom: 20px;
-    width:90%;
-    margin : 0 auto;
-    
-}
+
 
 #image{
     background-image: 100px;
