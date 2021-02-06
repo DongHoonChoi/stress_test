@@ -1,36 +1,61 @@
 @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.0/RIDIBatang.woff');
+
 * {
     font-family: 'RIDIBatang';
     font-weight: normal;
     font-style: normal;
 }
+
 /* @font-face{
     font-family: 'RIDIBatang';
     src: url('Cafe24Danjunghae.ttf');
 } */
-@font-face{
+@font-face {
     font-family: 'cafe24';
     src: url('Cafe24Danjunghae.ttf');
 }
 
- /*처음 */ 
-.back-all{
-    background-color: #1f1f1f; /* Old browsers */
-  background-image: url('/image/background.jpg');
-  background-size: 100%;
-  top:0px;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    width:100vw;
-    height:100vh;
+/*처음 */
+.font_pp{
+    font-family:"Pacifico" ;
 }
-#sub{
-    margin: 0 auto;
-    height: 50px;
-    width:100%
+.footer {
+
+    position:absolute;
+
+    bottom:0;
+
+    width:100%;
+
+    height:70px;   
+
+    font-family: 'Pacifico';
+    
+    color:white;
+
+    text-align: center;
+
 
 }
+.back-all {
+    background-color: #1f1f1f;
+    /* Old browsers */
+    background-image: url('/image/background.jpg');
+    background-size: 100%;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#sub {
+    margin: 0 auto;
+    height: 50px;
+    width: 100%
+}
+
 #wrap {
     position: relative;
     overflow: hidden;
@@ -38,16 +63,17 @@
     width: 100%;
     max-width: 100%;
     min-height: 100%;
-  }
-
-.musics{
-    position:fixed;
-    top:5%;
-    left:85%;
-    width:48px;
-    height:24px;
 }
-#harry_pont{
+
+.musics {
+    position: fixed;
+    top: 5%;
+    left: 85%;
+    width: 48px;
+    height: 24px;
+}
+
+#harry_pont {
     width: 187px;
     height: 85px;
 }
@@ -62,7 +88,7 @@
     font-size: 22px;
     border-right: 1px;
     color: #f1f1f1;
-    
+
 }
 
 .updown-slash {
@@ -73,32 +99,33 @@
 }
 
 .btn-start {
-    border-radius:10px;
+    border-radius: 10px;
     margin: 0 auto;
     width: 50%;
     font-size: 20px;
     color: #1f1f1f;
     background-color: #f1f1f1;
-    border:#1f1f1f;
+    border: #1f1f1f;
 }
 
 .hr-sect {
-	display: flex;
-	flex-basis: 100%;
-	align-items: center;
-	color: #ffffff;
-	font-size: 12px;
-	margin: 8px 0px;
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 8px 0px;
 }
+
 .hr-sect::before,
 .hr-sect::after {
-	content: "";
-	flex-grow: 1;
-	background: #ffffff;
-	height: 1px;
-	font-size: 0px;
-	line-height: 0px;
-	margin: 0px 16px;
+    content: "";
+    flex-grow: 1;
+    background: #ffffff;
+    height: 1px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 0px 16px;
 }
 
 /* 문제*/
@@ -108,145 +135,152 @@ article {
     flex-direction: column;
 }
 
-.question{
-    display:none;
+.question {
+    display: none;
     background-color: #1f1f1f;
-    background-image:url('/image/1.jpg');
+    background-image: url('/image/1.jpg');
     background-size: cover;
     animation: fade-in 1s;
 }
 
-#t-number{
-    color:white;
+#t-number {
+    color: white;
     font-family: 'cafe24';
     font-size: 30px;
 
 }
 
-#t-words{
-    color:white;
+#t-words {
+    color: white;
     font-family: 'cafe24';
     font-size: 22px;
 }
 
-.btn-attr{
+.btn-attr {
     font-size: 15px;
-    color:#1f1f1f;
+    color: #1f1f1f;
     background-color: #ffffff;
-    border:#1f1f1f;
-    border-radius: 10px;
-    opacity:70%;
-    padding:30px;
-    width:92%;
+    border: #1f1f1f;
+    border-radius: 20px;
+    opacity: 70%;
+    padding: 30px;
+    width: 92%;
     margin: 0 auto;
     text-align: center;
     margin-bottom: 10px;
-    font-weight:bolder;
+    font-weight: bolder;
     animation: fade-in 1s;
 }
 
-.btn-title{
-font-size: 16px;
-color:#1f1f1f;
-background-color: #ffffff;
-border:#1f1f1f;
+.btn-title {
+    font-size: 16px;
+    color: #1f1f1f;
+    background-color: #ffffff;
+    border: #1f1f1f;
 
-opacity:70%;
-padding:30px;
-width:92%;
-margin: 0 auto;
-text-align: center;
-margin-bottom: 25px;
-font-weight:bolder;
-animation: fade-in 1s;
+    opacity: 70%;
+    padding: 30px;
+    width: 92%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    animation: fade-in 1s;
 }
 
 /* 결과 */
 
-#result_compare{
-    font-family:'cafe24';
-    color : #ffffff;
+#result_compare {
+    font-family: 'cafe24';
+    color: #ffffff;
     font-size: 22px;
 }
 
-#character1{
-    font-family:'cafe24';
-    color : #ffffff;
+#character1 {
+    font-family: 'cafe24';
+    color: #ffffff;
     font-size: 16px;
 }
 
-#character2{
-    font-family:'cafe24';
-    color : #ffffff;
+#character2 {
+    font-family: 'cafe24';
+    color: #ffffff;
     font-size: 22px;
 }
 
-#character3{
-    font-family:'cafe24';
-    color : #ffffff;
+#character3 {
+    font-family: 'cafe24';
+    color: #ffffff;
     font-size: 14px;
 }
 
-#explain{
+#explain {
     text-align: center;
-    font-family:'RIDIBatang';
-    color : #ffffff;
+    font-family: 'RIDIBatang';
+    color: #ffffff;
     font-size: 13px;
 }
 
-#stress_explain1{
-    
+#stress_explain1 {
+
     text-decoration: underline;
-    font-family:'RIDIBatang';
-    color : #ffffff;
+    font-family: 'RIDIBatang';
+    color: #ffffff;
     font-size: 14px;
 }
 
-#stress_explain2{
+#stress_explain2 {
     text-align: left;
-    font-family:'RIDIBatang';
-    color : #ffffff;
+    font-family: 'RIDIBatang';
+    color: #ffffff;
     font-size: 13px;
 }
 
-#stress_own, #stress_own3, #stress_own5, #stress_own7{text-align: left;
+#stress_own,
+#stress_own3,
+#stress_own5,
+#stress_own7 {
+    text-align: left;
     text-decoration: underline;
-    font-family:'RIDIBatang';
-    color : #ffffff;
+    font-family: 'RIDIBatang';
+    color: #ffffff;
     font-size: 14px;
 
 }
 
-#stress_own2, #stress_own4, #stress_own6, #stress_own8{
-    font-family:'RIDIBatang';
-    color : #ffffff;
+#stress_own2,
+#stress_own4,
+#stress_own6,
+#stress_own8 {
+    font-family: 'RIDIBatang';
+    color: #ffffff;
     font-size: 13px;
 
 }
 
-.line{
-    margin:auto;
+.line {
+    margin: auto;
 }
 
-.stress_tool{
+.stress_tool {
     font-family: "RIDIBatang";
-    font-size:16px;
-    color:white;
+    font-size: 16px;
+    color: white;
 }
 
-.result{
-    display:none;
-    
+.result {
+    display: none;
+
 }
 
-#img{
+#img {
     width: 300px;
     height: 300px;
     margin: 0 auto;
 }
 
-.class{
-    margin:0 auto;
+.class {
+    margin: 0 auto;
 }
 
 .start {
@@ -256,31 +290,77 @@ animation: fade-in 1s;
     line-height: 3.5rem;
 }
 
-.share{
-    margin:0 auto;
+.share {
+    margin: 0 auto;
 
 }
 
-.kakao_ad{
-    width:320px;
-    margin:0 auto;
+.kakao_ad {
+    width: 320px;
+    margin: 0 auto;
 }
 
+.btn-link {
+    font-size: 16px;
+    color: #1f1f1f;
+    background-color: #ffffff;
+    border: #1f1f1f;
+    border-radius: 20px;
+    opacity: 70%;
+    padding: 30px;
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: bolder;
+    animation: fade-in 1s;
 
-.scon{
-    margin:0 auto;
 }
 
-.share_font{font-size:16px;
+.scon {
+    margin: 0 auto;
+}
+
+.share_font {
+    font-size: 16px;
     font-family: "cafe24";
-    color:white;
+    color: white;
     text-align: center;
 }
-#image{
+
+#image {
     background-image: 100px;
     opacity: 30%;
 }
 
-#character, #explain{
+#character,
+#explain {
     color: #eafffc;
+}
+
+.wrap_inst {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.inst {
+    /* width: auto;
+    height: auto; */
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.inst1 {
+    font-size: 26px;
+    font-family: 'Pacifico';
+    text-align: right;
+    color: white;
+
+}
+
+.reference {
+    color: white;
+    font-size: 11px;
 }

@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="animation.css">
     <link rel="stylesheet" href="qna.css">
-
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="data.js"></script>
@@ -31,7 +31,7 @@
         <section id="welcome" class="container">
             <article class="startgo">
                 
-                <embed class="musics" src="back-music.mp3"  loop="-1" autostart="true" volume="100%" ></embed>
+                <embed class="musics" src="back-music.mp3"  loop="-1" autostart="true" volume="100%" hidden="True" ></embed>
                 <div id="title-box">
                     <img id="harry_pont" src="image/Harrypotter.png">
                     <!-- <h1 class="main-title mt-5 text-center"> 나의 스트레스 대처 유형은??  </h1> -->
@@ -53,6 +53,10 @@
                 <button type="button" class="btn-start btn-primary mt-5" onclick="startgo();">테스트 시작하기</button>
                 <!-- <img class="updown-slash" src="image/down-slash.png" alt="up-slash">
                  -->
+                <div class="footer">
+                    <p class="font_pp">lullallula</p>
+                    <p >*이 테스트는 '재미로만' 즐겨주시기 바랍니다*</p>
+                </div>
             </article>
         </section>
     
@@ -108,15 +112,27 @@
             
             <h5 class="stress_tool text-center mt-5">스트레스에 더 잘 대처하고 싶다면?</h5>
             <img class="scon mt-2" src="image/scon.jpg" width=324px; height=216px; >
-            <p class="stress_tool text-center mt-5">마음 관리 플래너, <a class="stress_tool" href="https://tum.bg/4DheZ1">스콘 플래너</a></p>
-            <img class='line' src='/image/line.png' width=50%  >
+            <p class="stress_tool text-center mt-5">마음 관리 플래너, 스콘 플래너</p>
+            <button type="button" class="btn-link btn-primary mt-2" onclick="location.href=//tum.bg/4DheZ1">텀블벅 후원하기</button>
+            <img class='line mt-2' src='/image/line.png' width=50%  >
 
-            <h5 class="share_font mt-5"> 친구와 공유하기 </h5>            
-            
-            
-            <!-- Go to www.addthis.com/dashboard to customize your tools -->
+            <h5 class="share_font mt-3"> 친구와 공유하기 </h5> 
             <div class="share addthis_inline_share_toolbox"></div>
-                
+            
+            <img class='line mt-2' src='/image/line.png' width=50%  >
+
+            <p class="stress_tool text-right mt-5">룰랄루라가 궁금해요!</p>
+            <span class="wrap_inst mt-3">
+                <a href="https://www.instagram.com/lullal_lula/" target="_blank"><img class="inst" src='/image/insta.png'></a>  
+                <a class="inst1 text-right" href="https://www.instagram.com/lullal_lula/" target="_blank">lullallula</a>
+            </span>
+            
+            <h3 class="reference mt-1">김정희, 이장호. (1985). 김성태교수 화갑기념 특집 / 스트레스 대처방식의 구성요인 및 우울과의 관계.<br>
+                THE JOURNAL OF BEHAVIORAL SCIENCES, 7(0), 127-138.</h3>
+
+
+
+            
         </article>
         
         <!-- <section class="kakao_ad md-5">
