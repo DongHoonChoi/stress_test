@@ -140,7 +140,7 @@ article {
     background-color: #1f1f1f;
     background-image: url('/image/1.jpg');
     background-size: cover;
-    animation: fade-in 1s;
+    
 }
 
 #t-number {
@@ -169,7 +169,7 @@ article {
     text-align: center;
     margin-bottom: 10px;
     font-weight: bolder;
-    animation: fade-in 1s;
+    
 }
 
 .btn-title {
@@ -185,7 +185,7 @@ article {
     text-align: center;
     margin-bottom: 25px;
     font-weight: bolder;
-    animation: fade-in 1s;
+    
 }
 
 /* 결과 */
@@ -313,7 +313,7 @@ article {
     text-align: center;
     margin-bottom: 25px;
     font-weight: bolder;
-    animation: fade-in 1s;
+    
 
 }
 
