@@ -188,13 +188,14 @@ animation: fade-in 1s;
 }
 
 #explain{
+    text-align: center;
     font-family:'RIDIBatang';
     color : #ffffff;
     font-size: 13px;
 }
 
 #stress_explain1{
-    text-align: left;
+    
     text-decoration: underline;
     font-family:'RIDIBatang';
     color : #ffffff;
@@ -202,6 +203,7 @@ animation: fade-in 1s;
 }
 
 #stress_explain2{
+    text-align: left;
     font-family:'RIDIBatang';
     color : #ffffff;
     font-size: 13px;
