@@ -335,6 +335,14 @@ function next() {
     }
     else{
         // $('.progress-bar').attr('style', 'width: calc(100/10*'+num+'%) ');
+        if ( (num == 1)  || (num==6) || ( num==9) ) {
+            $('#t-number').css({'color': 'black'});
+            $('#t-words').css({'color': 'black '});
+        }
+        else{
+            $('#t-number').css({'color': 'white'});
+            $('#t-words').css({'color': 'white'});
+        }
         $('#t-number').html(q[num]["t-number"]);
         $('#t-words').html(q[num]["t-words"]);
         $('#title').html(q[num]["title"]);
@@ -348,6 +356,11 @@ function next() {
         $('#C').html(q[num]["C"]);
         $('#D').html(q[num]["D"]);
         $('body').css({'background-color':'#1f1f1f'});
+        
+
+
+        
         num ++;
+        
     }
 }

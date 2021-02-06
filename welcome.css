@@ -4,6 +4,10 @@
     background: rgb(252, 252, 252);
   } */
   #title-box {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
     animation: fade-in 0.5s ease-out 0.3s both,
             going-down 0.5s ease-out 0.3s both;
