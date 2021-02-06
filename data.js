@@ -181,7 +181,7 @@ var result = {
     "stress_own6" : " ",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/루비우스 헤그리드.jpg"},
+    "img" : "./image/character/스네이프.jpg"},
     
     "problem & emotion": {"character1" :' 과감하고 혁신적인 ', 
     "character2" : ' "볼드모트/톰 리틀" ', 
@@ -197,7 +197,7 @@ var result = {
     "stress_own6" : " ",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/루비우스 헤그리드.jpg"},
+    "img" : "./image/character/볼드모트.jpg"},
     
     "problem & hope": {"character1" :' 조용하게 강한 ', 
     "character2" : ' "루나 러브굿" ', 
@@ -212,7 +212,8 @@ var result = {
     "stress_own5" : " ",
     "stress_own6" : " ",
     "stress_own7" : " ",
-    "stress_own8" : " ","img" : "./image/character/루나 러브굿.jpg"},
+    "stress_own8" : " ",
+    "img" : "./image/character/루나 러브굿.jpg"},
     
     "person & emotion": {"character1" :' 본투비 슈퍼스타☆ ', 
     "character2" : ' "길더로이 록하트" ', 
@@ -244,7 +245,7 @@ var result = {
     "stress_own6" : " ",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/지니 위즐리.jpg"},
+    "img" : "./image/character/지니위즐리.jpg"},
     
     "emotion & hope": {"character1" :' 밝고 우아하지만 내면에 고민이 많은 ', 
     "character2" : "초 챙", 
@@ -276,7 +277,7 @@ var result = {
     "stress_own6" : "스트레스 상황이 발생하면 타인의 지지와 도움을 받고자 합니다.<br>- 내가 지금 어떤 심정인지 털어놓으며 공감받고자 합니다.<br>- 문제 해결에 도움을 줄 만한 사람을 찾아가 조언을 구합니다.",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/론 위즐리.jpg"},
+    "img" : "./image/character/론위즐리.jpg"},
     
     "problem & person & hope": {"character1" :' 이상적이고 지혜로운 ', 
     "character2" : "알버스 덤블도어", 
@@ -292,7 +293,7 @@ var result = {
     "stress_own6" : "스트레스 상황이 발생하면 타인의 지지와 도움을 받고자 합니다.<br>- 내가 지금 어떤 심정인지 털어놓으며 공감받고자 합니다.<br>- 문제 해결에 도움을 줄 만한 사람을 찾아가 조언을 구합니다.",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/알버스 덤블도어.jpg"},
+    "img" : "./image/character/덤블도어.jpg"},
     
     "problem & emotion & hope": {"character1" :' 현명하고 적극적인 ', 
     "character2" : "네빌 롱바텀", 
@@ -308,7 +309,7 @@ var result = {
     "stress_own6" : "내가 원하는 감정이나 결과를 ‘마음 속으로’ 바랍니다. <br> - 내게 스트레스를 주는 사람이 사라지거나 상황이 빨리 끝나버리기를 기다립니다. <br> - 상황이 저절로 자연스럽게 괜찮아졌으면 합니다. 때로는 기적을 빌기도 합니다. <br> - 이번엔 운이 나빠서 상황이 안 좋아졌지만, 이런 일이 또 벌어지진 않을 거라고 생각합니다.",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/네빌 롱바텀.jpg"},
+    "img" : "./image/character/네빌롱바텀.jpg"},
     
     "person & emotion & hope": {"character1" :' 현명하고 적극적인 ', 
     "character2" : "드레이코 말포이", 
