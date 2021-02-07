@@ -180,7 +180,7 @@ var result = {
     "stress_own6" : " ",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/스네이프.jpg"},
+    "img" : "./image/character/스네이프.jpeg"},
     
     "problem & emotion": {"character1" :' 과감하고 혁신적인 ', 
     "character2" : ' "볼드모트/톰 리틀" ', 
@@ -244,7 +244,7 @@ var result = {
     "stress_own6" : " ",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/지니위즐리.jpg"},
+    "img" : "./image/character/지니위즐리.jpeg"},
     
     "emotion & hope": {"character1" :' 밝고 우아하지만 내면에 고민이 많은 ', 
     "character2" : "초 챙", 
@@ -276,7 +276,7 @@ var result = {
     "stress_own6" : "스트레스 상황이 발생하면 타인의 지지와 도움을 받고자 합니다.<br>- 내가 지금 어떤 심정인지 털어놓으며 공감받고자 합니다.<br>- 문제 해결에 도움을 줄 만한 사람을 찾아가 조언을 구합니다.",
     "stress_own7" : " ",
     "stress_own8" : " ",
-    "img" : "./image/character/론위즐리.jpg"},
+    "img" : "./image/character/론위즐리.jpeg"},
     
     "problem & person & hope": {"character1" :' 이상적이고 지혜로운 ', 
     "character2" : "알버스 덤블도어", 
