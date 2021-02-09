@@ -54,8 +54,8 @@ function next() {
         $(".result").show();
         var stress ='';
         var pro = parseInt($('#problem').val());
-        var emo = parseInt($('#emotion').val());
-        var per = parseInt($('#person').val());
+        var emo = parseInt($('#person').val());
+        var per = parseInt($('#emotion').val());
         var ho = parseInt($('#hope').val());
         
         if (pro>=4 && pro>emo && pro > per && pro > ho) {
@@ -82,7 +82,7 @@ function next() {
             $("#character1").html(result[stress]["character1"]);
             $("#character2").html(result[stress]["character2"]);
             $("#character3").html(result[stress]["character3"]);
-            $("#explain").html(result[stress]["explain"]);
+            $("#explain")       .html(result[stress]["explain"]);
             $('#stress_explain1').html(result[stress]["stress_explain1"]);
             $('#stress_explain2').html(result[stress]["stress_explain2"]);
             $('#stress_own').html(result[stress]["stress_own"]);
